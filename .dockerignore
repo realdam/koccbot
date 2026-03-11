@@ -1,0 +1,6 @@
+.git
+.gitignore
+.env
+db
+Bot/db/Bridges.yaml
+docker-compose.yml

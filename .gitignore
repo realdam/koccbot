@@ -1,0 +1,6 @@
+.env
+Bot/db/Bridges.yaml
+Bridges.yaml
+docker-compose.yml
+.npmignore
+./db/

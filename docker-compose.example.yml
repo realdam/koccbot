@@ -1,0 +1,10 @@
+services:
+  fluxer-discord-bridge:
+    build:
+      context: .
+    image: fluxer-discord-bridge:local
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./db:/app/Bot/db

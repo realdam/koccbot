@@ -1,0 +1,16 @@
+{
+  "name": "@rillabel/fluxer-discord-bridge",
+  "version": "0.5.0",
+  "author": "rillabel",
+  "type": "module",
+  "main": "Bot.js",
+  "dependencies": {
+    "@fluxerjs/core": "^1.0.7",
+    "discord.js": "^14.25.1",
+    "fs": "^0.0.1-security",
+    "yaml": "^2.8.2"
+  },
+  "scripts": {
+    "start": "node --env-file=.env ./Bot.js"
+  }
+}

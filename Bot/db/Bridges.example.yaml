@@ -1,0 +1,10 @@
+Discord:
+  1471037054749114459: # This is the channel ID of a channel I want to listen to on discord
+    - 1471634144215753113 # This is the channel ID of a fluxer channel I want to send those messages to
+    - 1472556157147975703 # Another Fluxer channel ID
+
+Fluxer:
+  1471634144215753113: # Same as above, but in reverse. This is a Fluxer channel ID
+    - 1471036844140662829 # Discord channel ID
+  1472556263603621895: # Fluxer channel
+    - 1471037054749114459 # Discord channel
